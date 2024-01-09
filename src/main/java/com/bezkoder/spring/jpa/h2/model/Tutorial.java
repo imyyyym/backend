@@ -2,9 +2,6 @@ package com.bezkoder.spring.jpa.h2.model;
 
 import jakarta.persistence.*;
 
-/**
- * Model class representing a tutorial.
- */
 @Entity
 @Table(name = "tutorials")
 public class Tutorial {

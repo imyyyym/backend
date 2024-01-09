@@ -3,9 +3,6 @@ package com.bezkoder.spring.jpa.h2;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-/**
- * Main class to bootstrap the Spring Boot application.
- */
 @SpringBootApplication
 public class SpringBootJpaH2Application {
 
