@@ -1,13 +1,12 @@
 # Spring Boot JPA + H2 Example
 
-A simple Spring Boot application demonstrating CRUD Rest APIs using JPA and an H2 in-memory database.
+Welcome to the technical documentation for the Spring Boot JPA + H2 example project, a simple Spring Boot application demonstrating CRUD Rest APIs using JPA and an H2 in-memory database.
 
 ## Table of Contents
+
 - [Overview](#overview)
 - [Prerequisites](#prerequisites)
 - [Getting Started](#getting-started)
-- [API Endpoints](#api-endpoints)
-- [Testing](#testing)
 - [License](#license)
 
 ## Overview
@@ -30,21 +29,6 @@ This project showcases the implementation of CRUD operations for tutorials using
    ```bash
    mvn spring-boot:run
 
-## API Endpoints
-
-- GET /api/tutorials: Get all tutorials.
-- GET /api/tutorials/{id}: Get tutorial by ID.
-- POST /api/tutorials: Create a new tutorial.
-- PUT /api/tutorials/{id}: Update tutorial by ID.
-- DELETE /api/tutorials/{id}: Delete tutorial by ID.
-- DELETE /api/tutorials: Delete all tutorials.
-- GET /api/tutorials/published: Get all published tutorials.
-
-## Testing
-
-The project includes unit tests and integration tests. You can run the tests using:
-    ```bash
-    mvn test 
 
 ## License
 
